@@ -7,7 +7,6 @@ Encontrar dónde están almacenados los datos de los ítems y recetas.
 
 ## Archivos explorados
 
-
 ### Potencialmente relevantes
 
 - `/config/`  
@@ -38,3 +37,5 @@ Encontrar dónde están almacenados los datos de los ítems y recetas.
   → Solo relevantes si deseas reconstruir estructuras, no para visualización de ítems.
 
 
+## Herramientas usadas:
+- NBTExplorer (ver detalles en `/tools/nbtexplorer.md`)

@@ -11,9 +11,10 @@ Este proyecto extrae, estructura y muestra los datos de ítems del juego.
 
 Crear una herramienta visual para consultar rápidamente información de ítems del modpack.
 
-## Plan general
+## Extracción de datos del mundo
 
-- [x] Crear el repositorio ✅
-- [ ] Investigar dónde están los datos de ítems
-- [ ] Extraer los datos
-- [ ] Visualizarlos en una app (por definir: Python o Web)
+El archivo `world-extractor/extract_data.py` permite extraer información directamente desde un mundo de Minecraft (por ejemplo, cofres, ME Drives, etc.) utilizando `nbtlib`.
+
+Requiere instalar `nbtlib`:
+```bash
+pip install nbtlib
